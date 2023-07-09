@@ -1,6 +1,8 @@
 # transformer
 
-代码对应的文章地址为 
+手动实现transformer，通过汉译英数据集训练与测试
+
+代码对应的文章地址为 https://zhuanlan.zhihu.com/p/642454398
 
 # 1. 安装依赖包
 
