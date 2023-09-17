@@ -20,7 +20,7 @@ python train.py
 
 # 3. 模型测试
 
-执行以下命令，可以对测试集进行beam_seach解码，并结算BLEU。
+执行以下命令，可以对测试集进行beam_seach解码，并计算BLEU。
 
 ```
 python test.py
