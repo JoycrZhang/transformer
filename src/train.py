@@ -255,6 +255,8 @@ def train_worker():
                 DummyScheduler(),
                 mode="eval",
                 device=device,
+                epoch=epoch,  # 添加 'epoch' 和 'writer'
+                writer=writer,  # 添加 'epoch' 和 'writer'
             )
             writer.add_scalar(f"Loss/eval-epoch", eval_loss, epoch)
             torch.cuda.empty_cache()
